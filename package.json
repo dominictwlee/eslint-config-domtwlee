@@ -3,9 +3,7 @@
   "version": "1.1.0",
   "description": "Domtwlee ESLint rules",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint ."
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:dominictwlee/eslint-config-domtwlee.git"
@@ -25,6 +23,7 @@
     "@typescript-eslint/parser": "^1.9.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
+    "eslint-config-domtwlee": "^1.1.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-react": "^7.13.0",
