@@ -42,7 +42,7 @@ module.exports = {
     'import/no-namespace': 'off',
     'import/no-nodejs-modules': 'off',
     'import/order': [
-      'warning',
+      'warn',
       {
         groups: ['builtin', ['external', 'internal'], 'parent', ['sibling', 'index']],
       },

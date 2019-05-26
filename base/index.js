@@ -7,4 +7,12 @@ module.exports = {
     './common-js.js',
     './es6.js',
   ],
+  parser: 'babel-eslint',
+  env: {
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
 };
